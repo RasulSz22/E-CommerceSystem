@@ -4838,11 +4838,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem\\E_CommerceSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem\\E_CommerceSystem.csproj",
       "projectName": "E_CommerceSystem",
-      "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem\\E_CommerceSystem.csproj",
+      "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem\\E_CommerceSystem.csproj",
       "packagesPath": "C:\\Users\\Volunteer3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem\\obj\\",
+      "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Volunteer3\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4859,8 +4859,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj": {
-              "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj"
+            "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj": {
+              "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj"
             }
           }
         }

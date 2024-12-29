@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HLBilBNDCNHgqkU1SYhAAHOSr8ezneXszrn2IB33tw3tXEboBadxv//t0wDzIcgv1rk9b7WkJmBdXINo9JYqEg==",
+  "dgSpecHash": "pYMs3QqIjuyw+c59CnOT+wgf1Ddozie4226zEfZRycGVIR00q2ZRMLLauzhHFMlyt4HTj3Eerew3kMQzH77v5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj",
+  "projectFilePath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Volunteer3\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.5\\microsoft.aspnetcore.cryptography.internal.8.0.5.nupkg.sha512",
     "C:\\Users\\Volunteer3\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.5\\microsoft.aspnetcore.cryptography.keyderivation.8.0.5.nupkg.sha512",

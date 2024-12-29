@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem\\E_CommerceSystem.csproj": {}
+    "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem\\E_CommerceSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\DTOs\\E_CommerceSystem.DTOs.csproj": {
+    "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\DTOs\\E_CommerceSystem.DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\DTOs\\E_CommerceSystem.DTOs.csproj",
+        "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\DTOs\\E_CommerceSystem.DTOs.csproj",
         "projectName": "E_CommerceSystem.DTOs",
-        "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\DTOs\\E_CommerceSystem.DTOs.csproj",
+        "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\DTOs\\E_CommerceSystem.DTOs.csproj",
         "packagesPath": "C:\\Users\\Volunteer3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\DTOs\\obj\\",
+        "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\DTOs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Volunteer3\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj": {
-                "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj"
+              "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj": {
+                "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj": {
+    "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj",
         "projectName": "E_CommerceSystem.BLL",
-        "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj",
+        "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj",
         "packagesPath": "C:\\Users\\Volunteer3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.BLL\\obj\\",
+        "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Volunteer3\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj": {
-                "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj"
+              "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj": {
+                "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj": {
+    "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj",
         "projectName": "E_CommerceSystem.DAL",
-        "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj",
+        "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj",
         "packagesPath": "C:\\Users\\Volunteer3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Volunteer3\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,11 +162,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\DTOs\\E_CommerceSystem.DTOs.csproj": {
-                "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\DTOs\\E_CommerceSystem.DTOs.csproj"
+              "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\DTOs\\E_CommerceSystem.DTOs.csproj": {
+                "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\DTOs\\E_CommerceSystem.DTOs.csproj"
               },
-              "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj": {
-                "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj"
+              "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj": {
+                "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj"
               }
             }
           }
@@ -239,14 +239,14 @@
         }
       }
     },
-    "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj": {
+    "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj",
         "projectName": "E_CommerceSystem.Entities",
-        "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj",
+        "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj",
         "packagesPath": "C:\\Users\\Volunteer3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Volunteer3\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -305,14 +305,14 @@
         }
       }
     },
-    "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem\\E_CommerceSystem.csproj": {
+    "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem\\E_CommerceSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem\\E_CommerceSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem\\E_CommerceSystem.csproj",
         "projectName": "E_CommerceSystem",
-        "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem\\E_CommerceSystem.csproj",
+        "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem\\E_CommerceSystem.csproj",
         "packagesPath": "C:\\Users\\Volunteer3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem\\obj\\",
+        "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Volunteer3\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -329,8 +329,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj": {
-                "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj"
+              "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj": {
+                "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj"
               }
             }
           }

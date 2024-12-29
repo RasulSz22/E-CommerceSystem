@@ -150,3 +150,14 @@ C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem\obj\Debug\net
 C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem\obj\Debug\net8.0\ref\E_CommerceSystem.dll
 C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem\bin\Debug\net8.0\E_CommerceSystem.BLL.dll
 C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem\bin\Debug\net8.0\E_CommerceSystem.BLL.pdb
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem\obj\Debug\net8.0\E_CommerceSystem.csproj.AssemblyReference.cache
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem\obj\Debug\net8.0\E_CommerceSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem\obj\Debug\net8.0\E_CommerceSystem.AssemblyInfoInputs.cache
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem\obj\Debug\net8.0\E_CommerceSystem.AssemblyInfo.cs
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem\obj\Debug\net8.0\E_CommerceSystem.csproj.CoreCompileInputs.cache
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem\obj\Debug\net8.0\E_CommerceSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem\obj\Debug\net8.0\E_CommerceSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem\obj\Debug\net8.0\E_CommerceSystem.sourcelink.json
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem\obj\Debug\net8.0\E_CommerceSystem.dll
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem\obj\Debug\net8.0\refint\E_CommerceSystem.dll
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem\obj\Debug\net8.0\E_CommerceSystem.pdb

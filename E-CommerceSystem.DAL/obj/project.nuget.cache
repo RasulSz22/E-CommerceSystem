@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NjJ8ghTMGz30kf7xLC8KsTaxfQBDzE1xeoid8aSScgp6ZU9rD9AgY5V4uHkrlR1ZLlXv2CSD+IiC5rOVSmn0uw==",
+  "dgSpecHash": "cro5buakU6Dz2NU+0XXKWPuXviXILUQCcOO0+b3NPnVQRJ9Q18/L/lLV8sc0AsbZIgr78ywbXNfFlY2feS1IXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Volunteer3\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Volunteer3\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -1,0 +1,414 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.dal\\concrete\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|solutionrelative:e-commercesystem.dal\\concrete\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.dal\\concrete\\orderitemrepository\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|solutionrelative:e-commercesystem.dal\\concrete\\orderitemrepository\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.dal\\concrete\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|solutionrelative:e-commercesystem.dal\\concrete\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.dal\\concrete\\orderrepository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|solutionrelative:e-commercesystem.dal\\concrete\\orderrepository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.dal\\concrete\\paymentrepository\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|solutionrelative:e-commercesystem.dal\\concrete\\paymentrepository\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.dal\\concrete\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|solutionrelative:e-commercesystem.dal\\concrete\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.dal\\concrete\\shippingrepository\\shippingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|solutionrelative:e-commercesystem.dal\\concrete\\shippingrepository\\shippingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E8DF67-9F2E-45D6-9411-E45755BBAD8D}|E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.entities\\utilities\\business\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E8DF67-9F2E-45D6-9411-E45755BBAD8D}|E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj|solutionrelative:e-commercesystem.entities\\utilities\\business\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E8DF67-9F2E-45D6-9411-E45755BBAD8D}|E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.entities\\utilities\\results\\concrete\\errorresults\\errordataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E8DF67-9F2E-45D6-9411-E45755BBAD8D}|E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj|solutionrelative:e-commercesystem.entities\\utilities\\results\\concrete\\errorresults\\errordataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\interfaces\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\interfaces\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\implementations\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\implementations\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\implementations\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\implementations\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\implementations\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\implementations\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\implementations\\shippingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\implementations\\shippingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.bll\\servicess\\interfaces\\ishippingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{811CEEE0-4759-426F-9417-D40E21F4BA66}|E-CommerceSystem.BLL\\E_CommerceSystem.BLL.csproj|solutionrelative:e-commercesystem.bll\\servicess\\interfaces\\ishippingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|c:\\users\\volunteer3\\source\\repos\\project\\e-commercesystem\\e-commercesystem.dal\\abstract\\icategoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4866ECA-A133-4D9F-A10C-B2FCA74EB8A4}|E-CommerceSystem.DAL\\E_CommerceSystem.DAL.csproj|solutionrelative:e-commercesystem.dal\\abstract\\icategoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\ProductRepository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.DAL\\Concrete\\ProductRepository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\ProductRepository\\ProductRepository.cs",
+              "RelativeToolTip": "E-CommerceSystem.DAL\\Concrete\\ProductRepository\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:45:21.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\OrderRepository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.DAL\\Concrete\\OrderRepository\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\OrderRepository\\OrderRepository.cs",
+              "RelativeToolTip": "E-CommerceSystem.DAL\\Concrete\\OrderRepository\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:45:19.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\PaymentRepository\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.DAL\\Concrete\\PaymentRepository\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\PaymentRepository\\PaymentRepository.cs",
+              "RelativeToolTip": "E-CommerceSystem.DAL\\Concrete\\PaymentRepository\\PaymentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:45:16.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShippingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\ShippingRepository\\ShippingRepository.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.DAL\\Concrete\\ShippingRepository\\ShippingRepository.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\ShippingRepository\\ShippingRepository.cs",
+              "RelativeToolTip": "E-CommerceSystem.DAL\\Concrete\\ShippingRepository\\ShippingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:44:33.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorDataResult.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\Utilities\\Results\\Concrete\\ErrorResults\\ErrorDataResult.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.Entities\\Utilities\\Results\\Concrete\\ErrorResults\\ErrorDataResult.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\Utilities\\Results\\Concrete\\ErrorResults\\ErrorDataResult.cs",
+              "RelativeToolTip": "E-CommerceSystem.Entities\\Utilities\\Results\\Concrete\\ErrorResults\\ErrorDataResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:44:06.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BusinessRules.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\Utilities\\Business\\BusinessRules.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.Entities\\Utilities\\Business\\BusinessRules.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\Utilities\\Business\\BusinessRules.cs",
+              "RelativeToolTip": "E-CommerceSystem.Entities\\Utilities\\Business\\BusinessRules.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:44:01.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:44:00.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\OrderItemRepository\\OrderItemRepository.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.DAL\\Concrete\\OrderItemRepository\\OrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\OrderItemRepository\\OrderItemRepository.cs",
+              "RelativeToolTip": "E-CommerceSystem.DAL\\Concrete\\OrderItemRepository\\OrderItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:05:44.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\CategoryRepository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.DAL\\Concrete\\CategoryRepository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\CategoryRepository\\CategoryRepository.cs",
+              "RelativeToolTip": "E-CommerceSystem.DAL\\Concrete\\CategoryRepository\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:06:20.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:43:58.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IOrderItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\IOrderItemService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\IOrderItemService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\IOrderItemService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\IOrderItemService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:43:56.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\IPaymentService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\IPaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:43:55.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Implementations\\CategoryService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Implementations\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Implementations\\CategoryService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Implementations\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:43:51.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.DAL\\Concrete\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Concrete\\Repository\\Repository.cs",
+              "RelativeToolTip": "E-CommerceSystem.DAL\\Concrete\\Repository\\Repository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:10:07.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Implementations\\OrderItemService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Implementations\\OrderItemService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Implementations\\OrderItemService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Implementations\\OrderItemService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:43:49.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Implementations\\PaymentService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Implementations\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Implementations\\PaymentService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Implementations\\PaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:43:48.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Implementations\\OrderService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Implementations\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Implementations\\OrderService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Implementations\\OrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:43:43.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Implementations\\ProductService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Implementations\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Implementations\\ProductService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Implementations\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:43:41.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ShippingService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Implementations\\ShippingService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Implementations\\ShippingService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Implementations\\ShippingService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Implementations\\ShippingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:43:39.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\IAccountService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\IAccountService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\IAccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:43:37.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:43:33.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IShippingService.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\IShippingService.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\IShippingService.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.BLL\\Servicess\\Interfaces\\IShippingService.cs",
+              "RelativeToolTip": "E-CommerceSystem.BLL\\Servicess\\Interfaces\\IShippingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:43:30.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Abstract\\ICategoryRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "E-CommerceSystem.DAL\\Abstract\\ICategoryRepository\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.DAL\\Abstract\\ICategoryRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "E-CommerceSystem.DAL\\Abstract\\ICategoryRepository\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T08:06:24.853Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

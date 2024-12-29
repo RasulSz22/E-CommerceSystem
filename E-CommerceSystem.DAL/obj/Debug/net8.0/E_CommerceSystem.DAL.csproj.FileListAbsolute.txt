@@ -18,3 +18,12 @@ C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug
 C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.genruntimeconfig.cache
 C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\ref\E_CommerceSystem.DAL.dll
 C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.sourcelink.json
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.csproj.AssemblyReference.cache
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.AssemblyInfoInputs.cache
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.AssemblyInfo.cs
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.sourcelink.json
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.dll
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\refint\E_CommerceSystem.DAL.dll
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.pdb

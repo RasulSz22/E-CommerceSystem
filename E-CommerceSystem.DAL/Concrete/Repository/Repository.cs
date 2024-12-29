@@ -2,12 +2,7 @@
 using E_CommerceSystem.DAL.Context;
 using E_CommerceSystem.Entities.Common;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace E_CommerceSystem.DAL.Concrete.Repository
 {
@@ -33,16 +28,31 @@ namespace E_CommerceSystem.DAL.Concrete.Repository
             return query;
         }
 
+        public Task<T> GetAsync(Expression<Func<T, bool>> expression, params string[] Includes)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<T> GetByIdAsync(int id)
         {
             var data = await Table.FirstOrDefaultAsync(x => x.Id == id);
             return data;
         }
 
+        public IQueryable<T> GetQuery(Expression<Func<T, bool>> expression)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Remove(T data)
         {
             var delete = Table.Remove(data);
             return delete.State == EntityState.Deleted;
+        }
+
+        public Task RemoveAsync(T entity)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<bool> RemoveById(int id)
@@ -55,6 +65,16 @@ namespace E_CommerceSystem.DAL.Concrete.Repository
         {
             var update = Table.Update(data);
             return update.State == EntityState.Modified;
+        }
+
+        Task IRepository<T>.AddAsync(T entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRepository<T>.UpdateAsync(T entity)
+        {
+            throw new NotImplementedException();
         }
         //public async Task AddAsync(T entity)
         //{

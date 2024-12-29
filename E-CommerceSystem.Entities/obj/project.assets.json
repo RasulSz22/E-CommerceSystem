@@ -820,11 +820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj",
       "projectName": "E_CommerceSystem.Entities",
-      "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj",
+      "projectPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\E_CommerceSystem.Entities.csproj",
       "packagesPath": "C:\\Users\\Volunteer3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\E-CommerceSystem\\E-CommerceSystem.Entities\\obj\\",
+      "outputPath": "C:\\Users\\Volunteer3\\source\\repos\\Project\\E-CommerceSystem\\E-CommerceSystem.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Volunteer3\\AppData\\Roaming\\NuGet\\NuGet.Config",
