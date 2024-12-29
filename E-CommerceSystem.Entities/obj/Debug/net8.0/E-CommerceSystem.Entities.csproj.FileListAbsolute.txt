@@ -1,0 +1,11 @@
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.Entities\bin\Debug\net8.0\E-CommerceSystem.Entities.deps.json
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.Entities\bin\Debug\net8.0\E-CommerceSystem.Entities.dll
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.Entities\bin\Debug\net8.0\E-CommerceSystem.Entities.pdb
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.Entities\obj\Debug\net8.0\E-CommerceSystem.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.Entities\obj\Debug\net8.0\E-CommerceSystem.Entities.AssemblyInfoInputs.cache
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.Entities\obj\Debug\net8.0\E-CommerceSystem.Entities.AssemblyInfo.cs
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.Entities\obj\Debug\net8.0\E-CommerceSystem.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.Entities\obj\Debug\net8.0\E-CommerceSystem.Entities.dll
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.Entities\obj\Debug\net8.0\refint\E-CommerceSystem.Entities.dll
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.Entities\obj\Debug\net8.0\E-CommerceSystem.Entities.pdb
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\E-CommerceSystem.Entities\obj\Debug\net8.0\ref\E-CommerceSystem.Entities.dll

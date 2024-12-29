@@ -1,0 +1,11 @@
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\DTOs\bin\Debug\net8.0\E-CommerceSystem.DTOs.deps.json
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\DTOs\bin\Debug\net8.0\E-CommerceSystem.DTOs.dll
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\DTOs\bin\Debug\net8.0\E-CommerceSystem.DTOs.pdb
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\DTOs\obj\Debug\net8.0\E-CommerceSystem.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\DTOs\obj\Debug\net8.0\E-CommerceSystem.DTOs.AssemblyInfoInputs.cache
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\DTOs\obj\Debug\net8.0\E-CommerceSystem.DTOs.AssemblyInfo.cs
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\DTOs\obj\Debug\net8.0\E-CommerceSystem.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\DTOs\obj\Debug\net8.0\E-CommerceSystem.DTOs.dll
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\DTOs\obj\Debug\net8.0\refint\E-CommerceSystem.DTOs.dll
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\DTOs\obj\Debug\net8.0\E-CommerceSystem.DTOs.pdb
+C:\Users\Volunteer3\source\repos\E-CommerceSystem\DTOs\obj\Debug\net8.0\ref\E-CommerceSystem.DTOs.dll
