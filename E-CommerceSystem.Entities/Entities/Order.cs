@@ -14,4 +14,4 @@ namespace E_CommerceSystem.Entities.Entities
         public string? DeliveryStatus { get; set; }
         public DateTime? DeliveryTime { get; set; }
     }
-}
+} //A
