@@ -9,9 +9,10 @@ namespace E_CommerceSystem.DTOs.PaymentDTO
 {
     public class PaymentCreateDTO
     {
-        public PaymentMethods PaymentMethod { get; set; }
         public string CardNumber { get; set; }
         public string ExpirationDate { get; set; }
         public string CVV { get; set; }
+        public PaymentMethods PaymentMethod { get; set; }
+       // public string AppUserId { get; set; }
     }
 }

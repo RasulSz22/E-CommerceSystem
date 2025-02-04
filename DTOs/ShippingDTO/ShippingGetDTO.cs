@@ -10,9 +10,9 @@ namespace E_CommerceSystem.DTOs.ShippingDTO
     public class ShippingGetDTO
     {
         public int Id { get; set; }
-        public string ShippingAddress { get; set; }
-        public ShippingStatus Status { get; set; }  
-        public string TrackingNumber { get; set; }  
         public int OrderId { get; set; }
+        public ShippingTypes ShippingMethod { get; set; }
+        public string TrackingNumber { get; set; }
+        public string Status { get; set; }
     }
 }

@@ -47,7 +47,7 @@ namespace E_CommerceSystem.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ParentId")
+                    b.Property<int?>("ParentId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -66,13 +66,17 @@ namespace E_CommerceSystem.DAL.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("AppUserId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("CreatedTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Discount")
-                        .HasColumnType("int");
+                    b.Property<string>("DeliveryStatus")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DeliveryTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<bool>("IsDelete")
                         .HasColumnType("bit");
@@ -80,21 +84,18 @@ namespace E_CommerceSystem.DAL.Migrations
                     b.Property<DateTime>("ModifierTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("OrderNotes")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("PaymentId")
                         .HasColumnType("int");
 
-                    b.Property<double>("TotalAmount")
-                        .HasColumnType("float");
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("TotalAmount")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("AppUserId");
-
-                    b.HasIndex("PaymentId");
 
                     b.ToTable("Orders");
                 });
@@ -116,17 +117,17 @@ namespace E_CommerceSystem.DAL.Migrations
                     b.Property<DateTime>("ModifierTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("OrderId")
+                    b.Property<int?>("OrderId")
                         .HasColumnType("int");
-
-                    b.Property<double>("Price")
-                        .HasColumnType("float");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<double>("Quantity")
-                        .HasColumnType("float");
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("UnitPrice")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -146,6 +147,7 @@ namespace E_CommerceSystem.DAL.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("AppUserId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("CVV")
@@ -240,12 +242,12 @@ namespace E_CommerceSystem.DAL.Migrations
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
-                    b.Property<string>("ShippingAddress")
+                    b.Property<int>("ShippingMethod")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
 
                     b.Property<string>("TrackingNumber")
                         .IsRequired()
@@ -310,6 +312,9 @@ namespace E_CommerceSystem.DAL.Migrations
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
 
                     b.Property<string>("LastName")
                         .IsRequired()
@@ -478,34 +483,27 @@ namespace E_CommerceSystem.DAL.Migrations
                     b.HasOne("E_CommerceSystem.Entities.Entities.Category", "Parent")
                         .WithMany("Children")
                         .HasForeignKey("ParentId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.Navigation("Parent");
                 });
 
             modelBuilder.Entity("E_CommerceSystem.Entities.Entities.Order", b =>
                 {
-                    b.HasOne("E_CommerceSystem.Entities.Identity.AppUser", null)
+                    b.HasOne("E_CommerceSystem.Entities.Identity.AppUser", "AppUser")
                         .WithMany("Orders")
-                        .HasForeignKey("AppUserId");
-
-                    b.HasOne("E_CommerceSystem.Entities.Entities.Payment", "Payment")
-                        .WithMany()
-                        .HasForeignKey("PaymentId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.Navigation("Payment");
+                    b.Navigation("AppUser");
                 });
 
             modelBuilder.Entity("E_CommerceSystem.Entities.Entities.OrderItem", b =>
                 {
-                    b.HasOne("E_CommerceSystem.Entities.Entities.Order", "Order")
+                    b.HasOne("E_CommerceSystem.Entities.Entities.Order", null)
                         .WithMany("OrderItems")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("OrderId");
 
                     b.HasOne("E_CommerceSystem.Entities.Entities.Product", "Product")
                         .WithMany("OrderItems")
@@ -513,16 +511,18 @@ namespace E_CommerceSystem.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Order");
-
                     b.Navigation("Product");
                 });
 
             modelBuilder.Entity("E_CommerceSystem.Entities.Entities.Payment", b =>
                 {
-                    b.HasOne("E_CommerceSystem.Entities.Identity.AppUser", null)
+                    b.HasOne("E_CommerceSystem.Entities.Identity.AppUser", "AppUser")
                         .WithMany("Payments")
-                        .HasForeignKey("AppUserId");
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
                 });
 
             modelBuilder.Entity("E_CommerceSystem.Entities.Entities.Product", b =>

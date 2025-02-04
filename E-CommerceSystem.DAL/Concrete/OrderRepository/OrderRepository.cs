@@ -14,6 +14,7 @@ namespace E_CommerceSystem.DAL.Concrete.OrderRepository
     {
         public OrderRepository(ECommerceSystemContex context) : base(context)
         {
+
         }
     }
 }

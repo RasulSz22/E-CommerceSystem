@@ -11,11 +11,16 @@ namespace E_CommerceSystem.BLL.Servicess.Interfaces
 {
     public interface IOrderItemService
     {
-
-        public Task<PagginatedResponse<OrderItemGetDTO>> GetAllAsync(int pageNumber = 1, int pageSize = 6);
+        public Task<List<OrderItemGetDTO>> GetAllAsync();
         public Task<IResult> CreateAsync(OrderItemCreateDTO dto);
         public Task<IResult> RemoveAsync(int id);
         public Task<IResult> UpdateAsync(int id, OrderItemUpdateDTO dto);
         public Task<IDataResult<OrderItemGetDTO>> GetAsync(int id);
+
+        //public Task<PagginatedResponse<OrderItemGetDTO>> GetAllAsync(int pageNumber = 1, int pageSize = 6);
+        //public Task<IResult> CreateAsync(OrderItemCreateDTO dto);
+        //public Task<IResult> RemoveAsync(int id);
+        //public Task<IResult> UpdateAsync(int id, OrderItemUpdateDTO dto);
+        //public Task<IDataResult<OrderItemGetDTO>> GetAsync(int id);
     }
 }

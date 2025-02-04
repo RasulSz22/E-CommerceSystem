@@ -1,4 +1,5 @@
-﻿using E_CommerceSystem.Entities.Entities;
+﻿using E_CommerceSystem.Entities.Common;
+using E_CommerceSystem.Entities.Entities;
 using E_CommerceSystem.Entities.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -34,45 +35,69 @@ namespace E_CommerceSystem.DAL.Context
               .HasForeignKey(c => c.ParentId)  // Foreign key is ParentId
               .OnDelete(DeleteBehavior.NoAction);
 
-           
+            modelBuilder.Entity<Order>()
+     .HasOne(o => o.AppUser)  // Assuming AppUser is related to Order
+     .WithMany(u => u.Orders)
+     .HasForeignKey(o => o.AppUserId)
+     .OnDelete(DeleteBehavior.NoAction);  // Change to NoAction or SetNull if needed
 
+            modelBuilder.Entity<Payment>()
+                .HasOne(p => p.AppUser)  // Assuming AppUser is related to Payment
+                .WithMany(u => u.Payments)
+                .HasForeignKey(p => p.AppUserId)
+                .OnDelete(DeleteBehavior.NoAction);
 
-            //// Role Seed Data
-            //modelBuilder.Entity<AppRole>().HasData(
-            //    new AppRole { Id = Admin, Name = "Admin", NormalizedName = "ADMIN" },
-            //    new AppRole { Id = User, Name = "User", NormalizedName = "USER" }
-            //);
+            modelBuilder.Entity<Order>()
+        .Property(o => o.TotalAmount)
+        .HasColumnType("decimal(18,2)");
 
-            //// User Seed Data
-            //var hasher = new PasswordHasher<AppUser>();
-
-            //var user = new AppUser
-            //{
-            //    Id = guidAdminCreat,
-            //    UserName = "Admin",
-            //    NormalizedUserName = "ADMIN",
-            //    Email = "admin@example.com",
-            //    NormalizedEmail = "ADMIN@EXAMPLE.COM",
-            //    EmailConfirmed = true,
-            //    FirstName = "default",
-            //    LastName = "default",
-            //    BirthDate = DateTime.UtcNow,
-            //    SecurityStamp = Guid.NewGuid().ToString(),
-            //    //ConcurrencyStamp = Guid.NewGuid().ToString(),
-            //    LockoutEnabled = true
-            //};
-
-            //user.PasswordHash = hasher.HashPassword(user, "Admin!23");
-
-            //modelBuilder.Entity<AppUser>().HasData(user);
-
-            //// User - Role Relationship Seed Data
-            //modelBuilder.Entity<AppUserRoles>().HasData(
-            //    new AppUserRoles { UserId = AdminCreat, RoleId = Admin } // Admin user is assigned the Admin role
-            //);
-
+            modelBuilder.Entity<OrderItem>()
+           .Property(o => o.UnitPrice)
+           .HasColumnType("decimal(18,2)");
 
         }
 
+
+
+
+
+
+        //// Role Seed Data
+        //modelBuilder.Entity<AppRole>().HasData(
+        //    new AppRole { Id = Admin, Name = "Admin", NormalizedName = "ADMIN" },
+        //    new AppRole { Id = User, Name = "User", NormalizedName = "USER" }
+        //);
+
+        //// User Seed Data
+        //var hasher = new PasswordHasher<AppUser>();
+
+        //var user = new AppUser
+        //{
+        //    Id = guidAdminCreat,
+        //    UserName = "Admin",
+        //    NormalizedUserName = "ADMIN",
+        //    Email = "admin@example.com",
+        //    NormalizedEmail = "ADMIN@EXAMPLE.COM",
+        //    EmailConfirmed = true,
+        //    FirstName = "default",
+        //    LastName = "default",
+        //    BirthDate = DateTime.UtcNow,
+        //    SecurityStamp = Guid.NewGuid().ToString(),
+        //    //ConcurrencyStamp = Guid.NewGuid().ToString(),
+        //    LockoutEnabled = true
+        //};
+
+        //user.PasswordHash = hasher.HashPassword(user, "Admin!23");
+
+        //modelBuilder.Entity<AppUser>().HasData(user);
+
+        //// User - Role Relationship Seed Data
+        //modelBuilder.Entity<AppUserRoles>().HasData(
+        //    new AppUserRoles { UserId = AdminCreat, RoleId = Admin } // Admin user is assigned the Admin role
+        //);
+
+
     }
+
 }
+

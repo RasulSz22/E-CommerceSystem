@@ -17,9 +17,9 @@ using System.Threading.Tasks;
 
 namespace E_CommerceSystem.BLL.AutoMapper
 {
-    public class Mapper:Profile
+    public class MapperPro:Profile
     {
-        public Mapper()
+        public MapperPro()
         {
             CreateMap<Category, CategoryGetDTO>().ReverseMap();//.ForMember(dest => dest.ChildrenIds, opt => opt.MapFrom(src => src.Children.Select(c => c.Id).ToList()))
                                                               //.ForMember(dest => dest.ProductIds, opt => opt.MapFrom(src => src.Products.Select(p => p.Id).ToList()));

@@ -5,10 +5,10 @@ namespace E_CommerceSystem.Entities.Entities
 {
     public class Shipping:BaseEntity
     {
-        public string ShippingAddress { get; set; }
-        public ShippingStatus Status { get; set; }       //todo enum olacaq
+        public int OrderId { get; set; }
+        public Order Order { get; set; }
+        public ShippingTypes ShippingMethod { get; set; }
         public string TrackingNumber { get; set; }
-        public  int OrderId { get; set; }
-        public  Order Order { get; set; }
+        public string Status { get; set; }
     }
 }

@@ -10,5 +10,6 @@ namespace E_CommerceSystem.DAL.Abstract.IOrderItemRepository
 {
     public interface IOrderItemRepository:IRepository<OrderItem>
     {
+
     }
 }

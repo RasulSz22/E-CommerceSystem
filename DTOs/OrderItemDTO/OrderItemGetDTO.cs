@@ -9,10 +9,9 @@ namespace E_CommerceSystem.DTOs.OrderItemDTO
     public class OrderItemGetDTO
     {
         public int Id { get; set; }
-        public double Quantity { get; set; }
-        public double Price { get; set; }
-        public double TotalPrice { get; set; }
-        public int OrderId { get; set; }
         public int ProductId { get; set; }
+        public int Quantity { get; set; }
+        public decimal UnitPrice { get; set; }
+        public decimal TotalPrice { get; set; }
     }
 }

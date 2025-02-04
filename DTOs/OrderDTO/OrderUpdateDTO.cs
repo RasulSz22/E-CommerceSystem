@@ -9,10 +9,10 @@ namespace E_CommerceSystem.DTOs.OrderDTO
     public class OrderUpdateDTO
     {
         public int Id { get; set; }
-        public string OrderNotes { get; set; }
-        public double TotalAmount { get; set; }
-        public int Discount { get; set; }
-        public string TrackingNumber { get; set; }
+        public decimal TotalAmount { get; set; }
+        public string? Status { get; set; }
         public int PaymentId { get; set; }
+        public string? DeliveryStatus { get; set; }
+        public DateTime? DeliveryTime { get; set; }
     }
 }

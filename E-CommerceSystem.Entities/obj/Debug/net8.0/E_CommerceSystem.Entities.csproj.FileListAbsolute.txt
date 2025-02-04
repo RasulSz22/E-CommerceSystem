@@ -20,3 +20,7 @@ C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.Entit
 C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.Entities\obj\Debug\net8.0\E_CommerceSystem.Entities.dll
 C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.Entities\obj\Debug\net8.0\refint\E_CommerceSystem.Entities.dll
 C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.Entities\obj\Debug\net8.0\E_CommerceSystem.Entities.pdb
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.Entities\bin\Debug\net8.0\E_CommerceSystem.Entities.deps.json
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.Entities\bin\Debug\net8.0\E_CommerceSystem.Entities.dll
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.Entities\bin\Debug\net8.0\E_CommerceSystem.Entities.pdb
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.Entities\obj\Debug\net8.0\ref\E_CommerceSystem.Entities.dll

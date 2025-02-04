@@ -27,3 +27,14 @@ C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\o
 C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.dll
 C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\refint\E_CommerceSystem.DAL.dll
 C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.pdb
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\bin\Debug\net8.0\E_CommerceSystem.DAL.deps.json
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\bin\Debug\net8.0\E_CommerceSystem.DAL.runtimeconfig.json
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\bin\Debug\net8.0\E_CommerceSystem.DAL.dll
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\bin\Debug\net8.0\E_CommerceSystem.DAL.pdb
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\bin\Debug\net8.0\E_CommerceSystem.DTOs.dll
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\bin\Debug\net8.0\E_CommerceSystem.Entities.dll
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\bin\Debug\net8.0\E_CommerceSystem.DTOs.pdb
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\bin\Debug\net8.0\E_CommerceSystem.Entities.pdb
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_Commer.341379EA.Up2Date
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\E_CommerceSystem.DAL.genruntimeconfig.cache
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.DAL\obj\Debug\net8.0\ref\E_CommerceSystem.DAL.dll

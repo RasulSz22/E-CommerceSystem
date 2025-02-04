@@ -17,5 +17,12 @@ namespace E_CommerceSystem.Entities.Identity
         public DateTime BirthDate { get; set; }
         public string? RefreshToken { get; set; }
         public DateTime? RefreshTokenEndTime { get; set; }
+        public bool IsActive { get; set; } = true;
+
+        public AppUser()
+        {
+            Orders = new List<Order>();
+            Payments = new List<Payment>();
+        }
     }
 }

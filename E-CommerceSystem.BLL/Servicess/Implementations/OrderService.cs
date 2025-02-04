@@ -1,10 +1,13 @@
 ﻿using AutoMapper;
+using E_CommerceSystem.BLL.Model;
 using E_CommerceSystem.BLL.Servicess.Interfaces;
 using E_CommerceSystem.DAL.Abstract.IRepository;
 using E_CommerceSystem.DAL.Abstract.UnitOfWork;
 using E_CommerceSystem.DTOs.OrderDTO;
+using E_CommerceSystem.DTOs.OrderItemDTO;
 using E_CommerceSystem.Entities.Entities;
 using E_CommerceSystem.Entities.Utilities.Results.Abstarct;
+using E_CommerceSystem.Entities.Utilities.Results.Concrete;
 using E_CommerceSystem.Entities.Utilities.Results.Concrete.ErrorResults;
 using E_CommerceSystem.Entities.Utilities.Results.Concrete.SuccessResults;
 using Serilog;
@@ -17,7 +20,7 @@ using System.Threading.Tasks;
 namespace E_CommerceSystem.BLL.Servicess.Implementations
 {
     public class OrderService : IOrderService
-    {
+    {   
         private IMapper _mapper;
         private IUnitOfWork _unitofwork;
         private IRepository<Order> _orderRepository;
@@ -45,9 +48,44 @@ namespace E_CommerceSystem.BLL.Servicess.Implementations
             }
         }
 
-        public Task<IDataResult<OrderGetDTO>> GetAsync(int id)
+        public async Task<IDataResult<List<OrderGetDTO>>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            try
+            {
+               
+                var orders = await _orderRepository.GetListAsync();
+
+                var orderDtos = _mapper.Map<List<OrderGetDTO>>(orders);
+
+              
+                return new DataResult<List<OrderGetDTO>>(orderDtos, true, "Orders retrieved successfully.");
+            }
+            catch (Exception ex)
+            {
+               
+                return new DataResult<List<OrderGetDTO>>(null, false, $"Error occurred: {ex.Message}");
+            }
+        }
+
+        public async Task<IDataResult<OrderGetDTO>> GetAsync(int id)
+        {
+            try
+            {
+                var order = await _orderRepository.GetAsync(c => c.Id == id);
+
+                if (order== null)
+                {
+                    return new ErrorDataResult<OrderGetDTO>("Order not found.");
+                }
+
+                var orderDto = _mapper.Map<OrderGetDTO>(order);
+                return new SuccessDataResult<OrderGetDTO>(orderDto, "Order retrieved successfully.");
+            }
+            catch (Exception ex)
+            {
+                Log.Error($"An error occurred while retrieving the order with ID {id}: {ex.Message}");
+                return new ErrorDataResult<OrderGetDTO>("Failed to retrieve order.");
+            }
         }
 
         public async Task<IResult> RemoveAsync(int id)

@@ -1,13 +1,17 @@
 ﻿using AutoMapper;
+using E_CommerceSystem.BLL.Extentions;
 using E_CommerceSystem.BLL.Model;
 using E_CommerceSystem.BLL.Servicess.Interfaces;
+using E_CommerceSystem.DAL.Abstract.ICategoryRepository;
 using E_CommerceSystem.DAL.Abstract.IRepository;
 using E_CommerceSystem.DAL.Abstract.UnitOfWork;
 using E_CommerceSystem.DTOs.CategoryDTO;
+using E_CommerceSystem.DTOs.OrderItemDTO;
 using E_CommerceSystem.Entities.Entities;
 using E_CommerceSystem.Entities.Utilities.Results.Abstarct;
 using E_CommerceSystem.Entities.Utilities.Results.Concrete.ErrorResults;
 using E_CommerceSystem.Entities.Utilities.Results.Concrete.SuccessResults;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 using Serilog;
 using System;
@@ -20,82 +24,98 @@ namespace E_CommerceSystem.BLL.Servicess.Implementations
 {
     public class CategoryService : ICategoryService
     {
-        private IMapper _mapper;
-        private IUnitOfWork _unitofwork;
-        private IRepository<Category> _categoryRepository;
+        readonly ICategoryRepository _categoryRepository;
+        readonly IMapper _mapper;
 
-        public CategoryService(IMapper mapper, IUnitOfWork unitofwork, IRepository<Category> categoryRepository)
+        public CategoryService(IMapper mapper, ICategoryRepository categoryRepository)
         {
             _mapper = mapper;
-            _unitofwork = unitofwork;
             _categoryRepository = categoryRepository;
         }
-
         public async Task<IResult> CreateAsync(CategoryCreateDTO dto)
         {
-            try
+            if (string.IsNullOrEmpty(dto.Name))
+            {
+                return new ErrorResult("Category name is required!");
+            }
+
+            if (dto.ParentId != null)
+            {
+                var parentCategory = await _categoryRepository.GetAsync(x => x.Id == dto.ParentId);
+                var subCategory = _mapper.Map<Category>(dto);
+                subCategory.ParentId = parentCategory.Id;
+                parentCategory.Children.Add(subCategory);
+                await _categoryRepository.UpdateAsync(parentCategory);
+            }
+            else
             {
                 var category = _mapper.Map<Category>(dto);
+                category.ParentId = dto.ParentId;
                 await _categoryRepository.AddAsync(category);
-                await _unitofwork.SaveChangesAsync();
-                return new SuccessResult("Category created successfully.");
             }
-            catch (Exception ex)
+            return new SuccessResult("Category Successfully Created");
+        }
+
+
+
+        public async Task<IDataResult<CategoryGetDTO>> GetAsync(int id)
+        {
+            Category category = await _categoryRepository.GetAsync(x => !x.IsDelete && x.Id == id);
+
+            if (category == null)
             {
-                Log.Error($"An error occurred while creating the category,Inner Exceptiom:{ex.InnerException}");
-                return new ErrorResult("Failed to create category.");
+                return new ErrorDataResult<CategoryGetDTO>("Category not found");
             }
-        }
 
-        public Task<PagginatedResponse<CategoryGetDTO>> GetAllAsync(int pageNumber = 1, int pageSize = 6)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IDataResult<CategoryGetDTO>> GetAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public async  Task<IResult> RemoveAsync(int id)
-        {
-            try
+            CategoryGetDTO getCategoryDTO = new CategoryGetDTO
             {
-                var category = await _categoryRepository.GetAsync(c => c.Id == id);
-                if (category == null)
+                Name = category.Name,
+                ParentId = category.ParentId,
+                Id = category.Id
+            };
+            return new SuccessDataResult<CategoryGetDTO>(getCategoryDTO, "Get Category Successfully");
+        }
+
+        public async Task<IResult> RemoveAsync(int id)
+        {
+            Category category = await _categoryRepository.GetAsync(x => !x.IsDelete && x.Id == id);
+
+            if (category == null)
+            {
+                return new ErrorResult("Category Not Found");
+            }
+            category.IsDelete = true;
+            await _categoryRepository.UpdateAsync(category);
+            return new SuccessResult("Category Removed Successfully");
+        }
+
+        public async Task<IResult> UpdateAsync(int id, CategoryUpdateDTO dto)
+        {
+            var categoryToUpdate = await _categoryRepository.GetAsync(x => x.Id == id);
+            if (categoryToUpdate == null)
+            {
+                return new ErrorResult("Category Not Foud");
+            }
+
+            categoryToUpdate.Name = dto.Name;
+            categoryToUpdate.ParentId = dto.ParentId;
+
+            if (dto.ParentId != null)
+            {
+                categoryToUpdate.ParentId = dto.ParentId;
+                var parentCategory = await _categoryRepository.GetAsync(x => x.ParentId == dto.ParentId);
+                if (parentCategory != null)
                 {
-                    return new ErrorResult("Category not found.");
+                    parentCategory.Children.Clear();
+                    parentCategory.Children.Add(categoryToUpdate);
+                    await _categoryRepository.UpdateAsync(parentCategory);
+                    await _categoryRepository.UpdateAsync(categoryToUpdate);
                 }
-                await _categoryRepository.RemoveAsync(category);
-                await _unitofwork.SaveChangesAsync();
-                return new SuccessResult("Category deleted successfully.");
             }
-            catch (Exception ex)
-            {
-                Log.Error($"An error occurred while removing the category with ID {id}: {ex.Message}");
-                return new ErrorResult("Failed to delete category.");
-            }
+            await _categoryRepository.UpdateAsync(categoryToUpdate);
+            return new SuccessResult("Category Successfully Updated");
         }
 
-        public async  Task<IResult> UpdateAsync(int id, CategoryUpdateDTO dto)
-        {
-            try
-            {
-                var category = await _categoryRepository.GetAsync(s => s.Id == id);
-                if (category == null)
-                {
-                    return new ErrorResult("Category not found.");
-                }
-                _mapper.Map(dto, category);
-                await _categoryRepository.UpdateAsync(category);
-                await _unitofwork.SaveChangesAsync();
-                return new SuccessResult("Category updated successfully.");
-            }
-            catch (Exception ex)
-            {
-                Log.Error($"An error occurred while updating the category with ID {id}: {ex.Message}");
-                return new ErrorResult("Failed to update category.");
-            }
-        }
+
     }
 }

@@ -27,3 +27,14 @@ C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\o
 C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\obj\Debug\net8.0\E_CommerceSystem.BLL.dll
 C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\obj\Debug\net8.0\refint\E_CommerceSystem.BLL.dll
 C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\obj\Debug\net8.0\E_CommerceSystem.BLL.pdb
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\bin\Debug\net8.0\E_CommerceSystem.BLL.deps.json
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\bin\Debug\net8.0\E_CommerceSystem.BLL.dll
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\bin\Debug\net8.0\E_CommerceSystem.BLL.pdb
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\bin\Debug\net8.0\E_CommerceSystem.DAL.dll
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\bin\Debug\net8.0\E_CommerceSystem.DTOs.dll
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\bin\Debug\net8.0\E_CommerceSystem.Entities.dll
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\bin\Debug\net8.0\E_CommerceSystem.DAL.pdb
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\bin\Debug\net8.0\E_CommerceSystem.DTOs.pdb
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\bin\Debug\net8.0\E_CommerceSystem.Entities.pdb
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\obj\Debug\net8.0\E_Commer.5A7BE3C5.Up2Date
+C:\Users\Volunteer3\source\repos\Project\E-CommerceSystem\E-CommerceSystem.BLL\obj\Debug\net8.0\ref\E_CommerceSystem.BLL.dll

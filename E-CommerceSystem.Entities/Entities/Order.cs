@@ -5,15 +5,13 @@ namespace E_CommerceSystem.Entities.Entities
 {
     public class Order:BaseEntity
     {
-        public string OrderNotes { get; set; }
-        public int Discount { get; set; }
-        public double TotalAmount { get; set; }
+        public string AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
+        public decimal TotalAmount { get; set; }
+        public string? Status { get; set; }
         public List<OrderItem> OrderItems { get; set; }
-        public  int PaymentId { get; set; } 
-        public  Payment Payment { get; set; }
-        public string AppUserId {  get; set; }
-        public AppUser AppUser {  get; set; }
-        //public  int ShippingId { get; set; }
-        //public  Shipping Shipping { get; set; } 
+        public int PaymentId { get; set; }
+        public string? DeliveryStatus { get; set; }
+        public DateTime? DeliveryTime { get; set; }
     }
 }

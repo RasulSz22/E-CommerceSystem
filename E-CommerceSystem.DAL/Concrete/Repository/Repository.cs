@@ -6,76 +6,90 @@ using System.Linq.Expressions;
 
 namespace E_CommerceSystem.DAL.Concrete.Repository
 {
-    public class Repository<T> : IRepository<T> where T : BaseEntity
+    public class Repository<T> : IRepository<T> where T : class
     {
-        readonly ECommerceSystemContex _context;
+        private readonly ECommerceSystemContex _context;
+
         public Repository(ECommerceSystemContex context)
         {
-            _context = context;
+            _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public DbSet<T> Table => _context.Set<T>();
-
-        public async Task<bool> AddAsync(T data)
+        public async Task AddAsync(T entity)
         {
-            var result=await Table.AddAsync(data);
-            return result.State == EntityState.Added;
+            if (entity == null) throw new ArgumentNullException(nameof(entity));
+
+            await _context.AddAsync(entity);
+            await _context.SaveChangesAsync();
         }
 
-        public IQueryable<T> GetAll()
+        public async Task<T> GetAsync(Expression<Func<T, bool>> expression, params string[] includes)
         {
-            var query=Table.AsQueryable();
-            return query;
-        }
+            if (expression == null) throw new ArgumentNullException(nameof(expression));
 
-        public Task<T> GetAsync(Expression<Func<T, bool>> expression, params string[] Includes)
-        {
-            throw new NotImplementedException();
-        }
-
-        public async Task<T> GetByIdAsync(int id)
-        {
-            var data = await Table.FirstOrDefaultAsync(x => x.Id == id);
-            return data;
+            var query = _context.Set<T>().Where(expression);
+            if (includes?.Any() == true)
+            {
+                foreach (string include in includes)
+                {
+                    query = query.Include(include);
+                }
+            }
+            return await query.FirstOrDefaultAsync();
         }
 
         public IQueryable<T> GetQuery(Expression<Func<T, bool>> expression)
         {
-            throw new NotImplementedException();
+            if (expression == null) throw new ArgumentNullException(nameof(expression));
+
+            return _context.Set<T>().Where(expression);
         }
 
-        public bool Remove(T data)
+        public async Task RemoveAsync(T entity)
         {
-            var delete = Table.Remove(data);
-            return delete.State == EntityState.Deleted;
+            if (entity == null) throw new ArgumentNullException(nameof(entity));
+
+            _context.Set<T>().Remove(entity);
+            await _context.SaveChangesAsync();
         }
 
-        public Task RemoveAsync(T entity)
+        public async Task UpdateAsync(T entity)
         {
-            throw new NotImplementedException();
+            if (entity == null) throw new ArgumentNullException(nameof(entity));
+
+            _context.Set<T>().Update(entity);
+            await _context.SaveChangesAsync();
         }
 
-        public async Task<bool> RemoveById(int id)
+        public async Task<int> SaveChangesAsync()
         {
-            var delete = await Table.FirstOrDefaultAsync(x => x.Id == id);
-            return Remove(delete);
+            return await _context.SaveChangesAsync();
         }
 
-        public bool UpdateAsync(T data)
+        public async Task<List<T>> GetListAsync(
+            Expression<Func<T, bool>> filter = null,
+            Func<IQueryable<T>, IQueryable<T>> include = null)
         {
-            var update = Table.Update(data);
-            return update.State == EntityState.Modified;
-        }
+            IQueryable<T> query = _context.Set<T>();
 
-        Task IRepository<T>.AddAsync(T entity)
-        {
-            throw new NotImplementedException();
-        }
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
 
-        Task IRepository<T>.UpdateAsync(T entity)
-        {
-            throw new NotImplementedException();
+            if (include != null)
+            {
+                query = include(query);
+            }
+
+            return await query.ToListAsync();
         }
+        //readonly ECommerceSystemContex _context;
+        //public Repository(ECommerceSystemContex context)
+        //{
+        //    _context = context;
+        //}
+
         //public async Task AddAsync(T entity)
         //{
         //    await _context.AddAsync(entity);
@@ -110,9 +124,75 @@ namespace E_CommerceSystem.DAL.Concrete.Repository
         //    _context.Set<T>().Update(entity);
         //    await _context.SaveChangesAsync();
         //}
+
+        //public async  Task<List<T>> GetAllAsync()
+        //{
+        //    return await _context.Set<T>().ToListAsync();
+        //}
+
+        //public async Task<int> CountAsync()
+        //{
+        //    return await _context.Set<T>().CountAsync();
+        //}
+
         //public async Task<int> SaveChangesAsync()
         //{
         //    return await _context.SaveChangesAsync();
         //}
+
+        //public DbSet<T> Table => _context.Set<T>();
+
+        //public async Task<bool> AddAsync(T entity)
+        //{
+        //    var result=await Table.AddAsync(entity);
+        //    return result.State == EntityState.Added;
+        //}
+
+        //public IQueryable<T> GetAll()
+        //{
+        //    var query=Table.AsQueryable();
+        //    return query;
+        //}
+
+        //public Task<T> GetAsync(Expression<Func<T, bool>> expression, params string[] Includes)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public async Task<T> GetByIdAsync(int id)
+        //{
+        //    var data = await Table.FirstOrDefaultAsync(x => x.Id == id);
+        //    return data;
+        //}
+
+        //public IQueryable<T> GetQuery(Expression<Func<T, bool>> expression)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public bool Remove(T data)
+        //{
+        //    var delete = Table.Remove(data);
+        //    return delete.State == EntityState.Deleted;
+        //}
+
+        //public Task RemoveAsync(T entity)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public async Task<bool> RemoveById(int id)
+        //{
+        //    var delete = await Table.FirstOrDefaultAsync(x => x.Id == id);
+        //    return Remove(delete);
+        //}
+
+        //public async Task UpdateAsync(T entity)
+        //{
+        //    var update = Table.Update(entity);
+        //    return update.State == EntityState.Modified;
+        //}
+
+
     }
- }
+}
